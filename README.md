@@ -4,3 +4,11 @@ You can bypass various Android security system checks such as Signature Verifica
 This is a hook for bypassing checks such as signature and integrity.
 
 inspired from [ApkSignatureKiller](https://github.com/L-JINBIN/ApkSignatureKiller)
+
+
+
+# *Call the hook in app*
+Add this line on attachBaseContext or onCreate method in thr class.I prefer adding at attachBaseContext
+```bash
+invoke-static {p1}, Lriyadmondol2006/SignFix;->attachBaseContext(Landroid/content/Context;)V
+```
