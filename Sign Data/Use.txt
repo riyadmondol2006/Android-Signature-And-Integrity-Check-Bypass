@@ -1,0 +1,4 @@
+java -cp signdata.jar anymy.sign.BinSignatureFix name.apk
+
+Open jre is needed to run this.
+Sometimes in windows terminal, this won't work. You should use WSL (Windows Subsystem for Linux).
