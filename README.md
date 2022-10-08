@@ -15,3 +15,5 @@ Add this line on ```attachBaseContext``` or ```onCreate``` method in the class.I
 ```bash
 invoke-static {p1}, Lriyadmondol2006/SignFix;->attachBaseContext(Landroid/content/Context;)V
 ```
+
+# We Do not promote any kind of illegal use of this hook,This hook is made for apk security testing. 
