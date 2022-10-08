@@ -10,7 +10,7 @@ inspired from [ApkSignatureKiller](https://github.com/L-JINBIN/ApkSignatureKille
 
 
 # *Call the hook in app*
-Add this line on ```attachBaseContext``` or ```onCreate``` method in thr class.I prefer adding at attachBaseContext
+Add this line on ```attachBaseContext``` or ```onCreate``` method in the class.I prefer adding at attachBaseContext
 
 ```bash
 invoke-static {p1}, Lriyadmondol2006/SignFix;->attachBaseContext(Landroid/content/Context;)V
